@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./lib/src/imageviewer.scss"
             ],
             "scripts": []
           },
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "moduleBuilder"
+    }
+  },
+  "defaultProject": "moduleBuilder",
+  "cli": {
+    "analytics": "93ac380c-8e19-43a1-a959-321447ee5096"
+  }
 }

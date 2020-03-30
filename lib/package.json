@@ -1,0 +1,21 @@
+{
+    "name": "ng-image-viewer-plugin",
+    "version": "0.0.0",
+    "license": "MIT",
+    "peerDependencies": {
+        "@angular/common": ">=8.0.0",
+        "@angular/core": ">=8.0.0",
+        "iv-viewer": "^2.0.1"
+    },
+    "ngPackage": {
+        "$schema": "./node_modules/ng-packagr/package.schema.json",
+        "lib": {
+          "entryFile": "public_api.ts"
+        },
+        "assets": [
+          "./src/imageviewer.scss"
+        ],
+        "dest": "dist"
+      }
+  }
+  

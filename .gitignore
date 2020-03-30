@@ -4,6 +4,13 @@
 /dist
 /tmp
 /out-tsc
+/dist-server
+/public
+/lib/dist
+/lib/dist.tgz
+/lib/node_modules
+integration/dist
+
 # Only exists if Bazel was run
 /bazel-out
 
